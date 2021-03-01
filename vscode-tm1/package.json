@@ -19,22 +19,22 @@
 			"properties": {
 				"vscode-tm1.username": {
 					"type": "string",
-					"default": "",
+					"default": "admin",
 					"description": "Username for TM1 login"
 				},
 				"vscode-tm1.password": {
 					"type": "string",
-					"default": "",
+					"default": "apple",
 					"description": "Password for TM1 login"
 				},
 				"vscode-tm1.port": {
 					"type": "string",
-					"default": "",
+					"default": "52670",
 					"description": "HTTPPort found in tm1s.cfg"
 				},
 				"vscode-tm1.integrated_security_mode": {
 					"type": "number",
-					"default": 5,
+					"default": 1,
 					"description": "TM1 Integrated Security Mode (1,2,3,4,5)"
 				},
 				"vscode-tm1.namespace": {
@@ -44,7 +44,7 @@
 				},
 				"vscode-tm1.hostname": {
 					"type": "string",
-					"default": "",
+					"default": "localhost",
 					"description": "TM1 host name to construct url"
 				}
 			}
